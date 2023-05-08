@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        myPreferenceRef =  getSharedPreferences("myPreferenceRef", MODE_PRIVATE);
+        myPreferenceRef = getSharedPreferences("myPreferenceRef", MODE_PRIVATE);
 
         Button button = findViewById(R.id.buttonToSecond);
         button.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         TextView textView = findViewById(R.id.textView);
-        textView.setText(myPreferenceRef.getString("MyAppPreferenceString", "No preference found."));
+        textView.setText(myPreferenceRef.getString("MyAppPreferenceString", ""));
     }
 
 }
