@@ -27,11 +27,11 @@ Och sedan ersätta textView genom att använda rätt nyckel för strängen och �
     TextView textView = findViewById(R.id.textView);
     textView.setText(myPreferenceRef.getString("MyAppPreferenceString", ""));
 
-![](FirstScreen.png){ width=25% }
+<img src="FirstScreen.png" width="25%" />
 
-![](SecondScreen.png){ width=25% }
+<img src="SecondScreen.png" width="25%" />
 
-![](EditText.png){ width=25% }
+<img src="EditText.png" width="25%" />
 
-![](DisplayMessage.png){ width=25% }
+<img src="DisplayMessage.png" width="25%" />
 
